@@ -1,4 +1,4 @@
-const notes = require('../db/db.json');
+let notes = require('../db/db.json');
 
 module.exports = (app) => {
 
@@ -9,8 +9,9 @@ module.exports = (app) => {
         res.json(true);
     });
 
-    app.delete('/api/notes', (req, res) => {
-        
+    app.delete(`/api/notes/:id`, (req, res) => {
+        console.log(req.params.id)
+        notes = notes.filter(note => req.params.id != note.id);
     });
 
 }
