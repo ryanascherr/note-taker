@@ -8,4 +8,9 @@ module.exports = (app) => {
         notes.push(req.body);
         res.json(true);
     });
+
+    app.delete('/api/notes', (req, res) => {
+        
+    });
+
 }
