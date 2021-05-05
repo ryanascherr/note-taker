@@ -6,11 +6,11 @@
 
 // module.exports = new Notes();
 
-const notesArray = [
-    {
-        title: "Hey!",
-        text: "Yo!",
-    },
-];
+// const notesArray = [
+//     {
+//         noteTitle: "Note Title!",
+//         noteText: "Note Text!",
+//     },
+// ];
 
-module.exports = notesArray;
+// module.exports = notesArray;

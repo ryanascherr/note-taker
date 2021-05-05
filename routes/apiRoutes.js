@@ -1,14 +1,11 @@
-//require
-
-const { json } = require('express');
-const notesData = require('../db/notes');
+const notes = require('../db/db.json');
 
 module.exports = (app) => {
 
-    // app.get("/api/notes", (req, res) => res.json(notesArray));
-    // console.log(notesArray);
+    app.get('/api/notes', (req, res) => res.json(notes));
 
-    app.post("/api/notes", (req, res) => {
-        console.log(notesData);
-    })
+    app.post('/api/notes', (req, res) => {
+        notes.push(req.body);
+        res.json(true);
+    });
 }
