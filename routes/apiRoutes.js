@@ -12,6 +12,7 @@ module.exports = (app) => {
     app.delete(`/api/notes/:id`, (req, res) => {
         console.log(req.params.id)
         notes = notes.filter(note => req.params.id != note.id);
+        res.json(notes);
     });
 
 }
