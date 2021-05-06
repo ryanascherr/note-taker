@@ -39,9 +39,13 @@ This application is covered under the following license: None
 
 Feel free to contribute!
 
+## Link
+
+https://ryanascherr.github.io/note-taker/
+
 ## Questions
 
 Have questions? Contact this project's creator at ryanascherr@gmail.com.
 
-Their GitHub profile page is github.com/ryanascherr.
+Their GitHub profile page is https://github.com/ryanascherr.
 
