@@ -31,8 +31,8 @@ Express is required to run this application.
 
 When clicking on a saved note to have it be displayed, make sure to click on the title itself, not the box.
 
-![Note Taker Page](assets/img/main-page.png)
-![Note Taker Page](assets/img/notes-page.png)
+![Note Taker Page](Assets/img/main-page.png)
+![Note Taker Page](Assets/img/notes-page.png)
 
 ## License
 
@@ -44,7 +44,7 @@ Feel free to contribute!
 
 ## Link
 
-https://peaceful-dawn-67483.herokuapp.com/notes
+https://peaceful-dawn-67483.herokuapp.com
 
 ## Questions
 
