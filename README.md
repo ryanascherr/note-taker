@@ -41,7 +41,7 @@ Feel free to contribute!
 
 ## Link
 
-https://ryanascherr.github.io/note-taker/
+https://ryanascherr.github.io/note-taker
 
 ## Questions
 
